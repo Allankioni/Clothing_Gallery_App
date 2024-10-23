@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test"
+    app:startDestination="@id/Home">
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.clothinggallery.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/navToGallery"
+            app:destination="@id/Gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/Gallery"
+        android:name="com.example.clothinggallery.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/navToFullscreen"
+            app:destination="@id/Fullscreen" />
+        <action
+            android:id="@+id/navToHome"
+            app:destination="@id/Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/Fullscreen"
+        android:name="com.example.clothinggallery.FullscreenFragment"
+        android:label="fragment_fullscreen"
+        tools:layout="@layout/fragment_fullscreen" >
+        <action
+            android:id="@+id/navToGallery"
+            app:destination="@id/Gallery" />
+    </fragment>
+</navigation>

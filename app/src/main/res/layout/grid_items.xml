@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    app:shapeAppearanceOverlay="@style/roundimageview"
+    android:background="@drawable/curved_edges"
+    android:forceHasOverlappingRendering="true"
+    android:adjustViewBounds="true"
+    android:gravity="center">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/grid_image"
+        android:forceHasOverlappingRendering="true"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid_text"
+        android:text="Rose"
+        android:textSize="26sp"
+        android:layout_marginTop="6dp"
+
+        />
+
+
+</LinearLayout>
