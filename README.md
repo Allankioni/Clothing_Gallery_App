@@ -22,21 +22,23 @@ Ready to elevate your wardrobe management? Follow these simple steps to install 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Allankioni/Clothing_Gallery_App.git
-🎉 Usage
+## 🎉 Usage
 Getting Started: Launch the app and create your personal clothing gallery.
 Navigating Categories: Use the navigation bar to switch between different clothing categories seamlessly.
 Adding Items: Tap the Add button to include new clothing pieces. Upload images directly from your gallery and categorize them accordingly.
 Filtering: Use the smart filter to quickly find that perfect outfit!
-💡 Contributing
+
+
+##💡 Contributing
 We welcome all contributions! Whether it's reporting bugs, suggesting features, or improving the code, your input is invaluable. Please feel free to open an issue or submit a pull request to help us make this app even better!
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 A huge thank you to the open-source community for their invaluable contributions and support. Together, we can enhance the way we manage our fashion!
 
-Embark on a stylish journey with the Clothing Gallery App and transform your wardrobe management today! 🌈
+## Embark on a stylish journey with the Clothing Gallery App and transform your wardrobe management today! 🌈
 
 
-Feel free to adjust any sections or add specific details that reflect your vision for the project!
+## Feel free to adjust any sections or add specific details that reflect your vision for the project!
